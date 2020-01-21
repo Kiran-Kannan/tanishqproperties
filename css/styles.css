@@ -5,29 +5,32 @@ body {
 
 /* Selects any <a> element when "hovered" */
 a:hover {
-    color: orange;
+    color: white;
   }
 
 .tp-logo {
     font-family: 'Oleo Script Swash Caps', cursive;
 }
-/* 
-.tp-logo:hover {
-    color: white;
-} */
+
 
 .nav-item {
     font-weight: 500;
 }
 
 .property-button {
-    padding: 10%;
+    padding: 7%;
     text-align: center;
 }
+
+/* .button-pad1 {
+    
+} */
 
 .section-aboutus {
     padding: 10%;
     text-align: center;
+    background-color: #ffc400;
+    color: white;
 }
 
 .footer {
