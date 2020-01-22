@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/contactstyle.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"
+        integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous">
     <script data-ad-client="ca-pub-1136068581601224" async
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
@@ -25,11 +28,11 @@
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav nav-item">
-                <a class="nav-item nav-link" href="#">Home</a>
-                <a class="nav-item nav-link" href="#">About Us</a>
-                <a class="nav-item nav-link" href="#">Commercial</a>
-                <a class="nav-item nav-link" href="#">Residential</a>
-                <a class="nav-item nav-link" href="#">Contact Us</a>
+                <a class="nav-item nav-link" href="index.html">Home</a>
+                <a class="nav-item nav-link" href="index.html#aboutus">About Us</a>
+                <a class="nav-item nav-link" href="commercial.html">Commercial</a>
+                <a class="nav-item nav-link" href="residential.html">Residential</a>
+                <a class="nav-item nav-link" href="contact.html">Contact Us</a>
             </div>
         </div>
     </nav>
@@ -39,42 +42,89 @@
     <!-- Contact us Header image Start -->
 
     <div>
-        <img src="images/contact.jpg" class="img-fluid" alt="Responsive image">
+        <img src="images/contact3.jpg" class="img-fluid" alt="Responsive image" width="1366">
     </div>
 
     <!-- Contact us Header image End -->
-    <div>
-        <div>
-            <h2>Contact Us</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, officia.</p>
-            <p>
-                Tanishq Properties <br>
-                19, A-Wing, Sagar Tech Plaza,<br>
-                Sakinaka Junction, A. K. Road,<br>
-                Andheri (East),Mumbai – 400072
-            </p>
-            <p>
-                mahesh@tanishqproperties.com
-            </p>
-            <p>
-                +91 9820121766
-            </p>
+
+    <!-- Contact us Main Start -->
+
+    <div class="container container-contact">
+        <div class="row">
+            <div class="col-sm">
+                <h2>Contact Us</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, officia.</p>
+                <p class="contact-add">
+                    <i class="fas fa-map-marker-alt"></i>&nbsp;Tanishq Properties <br>
+                    19, A-Wing, Sagar Tech Plaza,<br>
+                    Sakinaka Junction, A. K. Road,<br>
+                    Andheri (East),Mumbai – 400072
+                </p>
+                <p class="contact-add">
+                    <i class="fas fa-envelope"></i>&nbsp;mahesh@tanishqproperties.com
+                </p>
+                <p class="contact-add">
+                    <i class="fas fa-mobile-alt"></i>&nbsp;+91 9820121766
+                </p>
+            </div>
+            <div class="col-sm">
+                <form>
+                    <div class="form-row">
+                        <div class="col">
+                            <label for="validationServer01">First name</label>
+                            <input type="text" class="form-control" placeholder="First name">
+                        </div>
+                        <div class="col">
+                            <label for="validationServer01">Last Name</label>
+                            <input type="text" class="form-control" placeholder="Last name">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress2">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputCity">City</label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputZip">Zip</label>
+                            <input type="text" class="form-control" id="inputZip">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-danger">Submit</button>
+                    </div>
+                </form>
+            </div>
         </div>
-
-        <div>
-            <form action="">
-
-            </form>
-
-        </div>
-
     </div>
+
+    <!-- Contact us Main End -->
+
+    <!-- Map frame Start -->
+
+    <div class="container">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7540.264276248036!2d72.88479147182997!3d19.101858222662415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4d84e44aa42264d3!2sSagar%20Tech%20Plaza.!5e0!3m2!1sen!2sin!4v1579661752544!5m2!1sen!2sin"
+            width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+
+    <!-- Map Frame End -->
+
     <!-- Footer Start -->
 
-    <div class="footer">
-        <h6>Copyright © 2020 Tanishq Properties</h6>
-    </div>
 
+    <footer class="page-foot">
+        Copyright © 2020 Tanishq Properties
+    </footer>
     <!-- Footer End -->
 
 
