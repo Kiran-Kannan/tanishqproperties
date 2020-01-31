@@ -1,25 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Croissant+One|Open+Sans&display=swap');
-
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 
 /* Selects any <a> element when "hovered" */
 
 a:hover {
     color: white;
-  }
+}
 
 .tp-logo {
     font-family: 'Oleo Script Swash Caps', cursive;
 }
 
+
 /* navbar content  */
 
 .navbar-background {
-    background-color: 	#007BB4;
+    background-color: #007BB4;
 }
 
 .navbar-link-color {
@@ -35,9 +36,11 @@ a:hover {
     text-align: center;
 }
 
+
 /* .button-pad1 {
     
 } */
+
 
 /* aboutus */
 
@@ -49,21 +52,25 @@ a:hover {
 }
 
 .section-aboutus {
-    padding: 10%;
+    padding: 4% 10%;
     background-color: white;
-    color: 	#007BB4;
-    font-size: 20px;
+    color: #007BB4;
+    font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     width: 80.85%;
     text-align: justify;
     margin: auto;
 }
 
+
 /* .T-font {
     font-family: 'Oleo Script Swash Caps', cursive;
     font-size: 30px;
 } */
+
+
 /* aboutus card */
+
 
 /* 
 .card-body {
@@ -86,12 +93,43 @@ a:hover {
     padding: 1%;
 } */
 
+.profile-box {
+    position: relative;
+    height: 18em;
+    margin: auto;
+    padding: 0;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.profile-image {
+    margin: 0;
+    position: absolute;
+    left: 45%;
+    text-align: center;
+
+}
+
 .profile-image-mahesh {
-    height: 100px;
-    border-radius: 35%;
+    border-radius: 100px;
+    border: 3px solid 	#007BB4;
+}
+
+.profile-image-p {
+    margin: 0;
+}
+
+.card-link {
+    color: #007BB4;
+    margin-right: 15px;
+    margin-left: 9px;
+    font-size: 22px;
+    text-decoration: none;
+    transition: .3s linear;
 }
 
 /* footer start */
+
 .footer-box {
     background-color: #007BB4;
     padding: 20px;
@@ -115,4 +153,4 @@ a.tp-logo:hover {
     font-size: 22px;
     text-decoration: none;
     transition: .3s linear;
-  }
+}
