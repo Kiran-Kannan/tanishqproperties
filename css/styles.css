@@ -1,124 +1,134 @@
 @import url('https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Croissant+One|Open+Sans&display=swap');
-body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 0;
-    padding: 0;
 
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-
 /* Selects any <a> element when "hovered" */
-
 a:hover {
-    color: white;
+  color: white;
 }
 
 .tp-logo {
-    font-family: 'Oleo Script Swash Caps', cursive;
+  font-family: 'Oleo Script Swash Caps', cursive;
 }
 
-
 /* navbar content  */
-
 .navbar-background {
-    background-color: #007BB4;
+  background-color: #007BB4;
+  border-bottom: solid 2px #ff7675;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: white;
-    font-family: ;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ff7675;
 }
 
 .nav-item {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .navbar-color {
-    color: whiteS;
+  color: white;
 }
 
 /* Mid buttons */
-
-.property-button {
-    padding: 7%;
-    text-align: center;
+#property-buttons {
+  height: 50vh;
 }
 
+.property-button {
+  padding: 150px;
+  text-align: center;
+}
 
-.middle{
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-  }
-  .btn{
-    position: relative;
-    /* display: block; */
-    color: #ff7675;
-    font-size: 14px;
-    text-decoration: none;
-    margin: 0 30px -60px;
-    border: 2px solid #ff7675;
-    padding: 14px 60px;
-    text-transform: uppercase;
-    overflow: hidden;
-    transition: 1s all ease;
-  }
+.middle {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-  .btn::before{
-    background: #ff7675;
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    z-index: -1;
-    transition: all 0.6s ease;
-  }
-  
-  .btn1::before{
-    width: 100%;
-    height: 0%;
-    transform: translate(-50%,-50%) rotate(45deg);
-  }
-  .btn1:hover::before{
-    height: 380%;
-  }
+.btn {
+  position: relative;
+  /* display: block; */
+  color: #ff7675;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 0 30px -60px;
+  border: 2px solid #ff7675;
+  padding: 14px 60px;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 1s all ease;
+}
 
+.btn::before {
+  background: #ff7675;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  transition: all 0.6s ease;
+}
+
+a.btn1 {
+  font-weight: 600;
+}
+
+a.btn1:hover {
+  color: white;
+}
+
+.btn1::before {
+  width: 100%;
+  height: 0%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.btn1:hover::before {
+  height: 380%;
+}
 
 /* aboutus */
+#aboutus {
+  background-image: url("images/aboutus-back.jpg");
+}
 
 .about-us-head {
-    font-family: 'Croissant One', cursive;
-    font-weight: 700;
-    font-size: 40px;
-    text-align: center;
+  font-family: 'Croissant One', cursive;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
 }
 
 .section-aboutus {
-    padding: 4% 10%;
-    background-color: white;
-    color: #007BB4;
-    font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
-    width: 80.85%;
-    text-align: justify;
-    margin: auto;
+  padding: 4% 10%;
+  background-color: white;
+  color: #007BB4;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  width: 80.85%;
+  text-align: justify;
+  margin: auto;
 }
-
 
 /* .T-font {
     font-family: 'Oleo Script Swash Caps', cursive;
     font-size: 30px;
 } */
-
-
 /* aboutus card */
-
-
-/* 
+/*
 .card-body {
     padding: 0.5rem;
 }
@@ -138,65 +148,61 @@ a:hover {
     color: white;
     padding: 1%;
 } */
-
 .profile-box {
-    position: relative;
-    height: 18em;
-    margin: auto;
-    padding: 0;
-    font-weight: 500;
-    line-height: 40px;
+  position: relative;
+  height: 18em;
+  margin: auto;
+  padding: 0;
+  font-weight: 500;
+  line-height: 40px;
 }
 
 .profile-image {
-    margin: 0;
-    position: absolute;
-    left: 45%;
-    text-align: center;
-
+  margin: 0;
+  position: absolute;
+  left: 45%;
+  text-align: center;
 }
 
 .profile-image-mahesh {
-    border-radius: 100px;
-    border: 3px solid 	#007BB4;
+  border-radius: 100px;
+  border: 3px solid #ff7675;
 }
 
 .profile-image-p {
-    margin: 0;
+  margin: 0;
 }
 
 .card-link {
-    color: #007BB4;
-    margin-right: 15px;
-    margin-left: 9px;
-    font-size: 22px;
-    text-decoration: none;
-    transition: .3s linear;
+  color: #007BB4;
+  margin-right: 15px;
+  margin-left: 9px;
+  font-size: 22px;
+  text-decoration: none;
+  transition: .3s linear;
 }
 
 /* footer start */
-
 .footer-box {
-    background-color: #007BB4;
-    padding: 20px;
+  background-color: #007BB4;
+  padding: 20px;
 }
 
 a.tp-logo {
-    text-decoration: none;
-    color: white;
-    text-decoration: none;
-    transition: .3s linear;
-    font-size: 25px;
+  text-decoration: none;
+  color: white;
+  transition: .3s linear;
+  font-size: 25px;
 }
 
 a.tp-logo:hover {
-    color: black;
+  color: black;
 }
 
 .social-link {
-    color: #001a21;
-    margin-right: 25px;
-    font-size: 22px;
-    text-decoration: none;
-    transition: .3s linear;
+  color: #001a21;
+  margin-right: 25px;
+  font-size: 22px;
+  text-decoration: none;
+  transition: .3s linear;
 }
